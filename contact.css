@@ -1,9 +1,11 @@
- .contact-all{ background-attachment:fixed; background-image:url(https://4.bp.blogspot.com/-sV1Lpy-2Faw/WR0zlzVfmoI/AAAAAAAAAf4/NLUxRhou7GEP4MtP4on5_81Fg7M3dj_hACLcB/s1600/Sem%2BT%25C3%25ADtulo-1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; background-position: center; display:flex; flex-direction:column; justify-content:center; align-items: center; }
+             .contact-all{ background-attachment:fixed; background-image:url(https://4.bp.blogspot.com/-sV1Lpy-2Faw/WR0zlzVfmoI/AAAAAAAAAf4/NLUxRhou7GEP4MtP4on5_81Fg7M3dj_hACLcB/s1600/Sem%2BT%25C3%25ADtulo-1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; background-position: center; display:flex; flex-direction:column; justify-content:center; align-items: center; }
                 .contact-all{ color:white; font-family: arial; text-shadow: 0px 2px 5px #272727; font-size: 150%; }
                 .contact-all h1{ margin: 5px 0px; }
-                .contact-all input{ padding:5px; background: transparent; border:0px; border-bottom: 2px solid #1372E6; color: white; text-shadow: 0px 2px 5px #272727; }
-                .contact-all input:hover{ border-bottom: 2px solid #63FF38; }     
+                .contact-all input{ padding:5px; background: white; border:0px; border-bottom: 2px solid #272727; color: black; text-shadow: 0px 2px 5px #272727; }
                 
+                .contact-form { background: white; opacity:0.9; border-radius:10px; padding: 5px; }
+                .contact-all input:hover{ cursor: pointer; background:#1372E6; color:white; border-bottom: 2px solid #1372E6; }     
+            
                 @media screen and (max-width:400px){
                 .contact-all input{ padding:2px; font-size:8px; }
                 .contact-all{ font-size: 80%; }               
