@@ -1,10 +1,11 @@
-.float-panel {
+        .float-panel {
     width:100%;
     background:white;
     z-index:300;
     padding:30px 0; 
     transform: translateZ(0);
     transition:all 0.5s;
+    font-family: arial;
 }
 .float-panel .content-area {
     max-width:900px;
@@ -16,18 +17,20 @@
     color:#444;
     display:inline-block;
     padding:10px 20px;
-	border:2px solid transparent;
 } 
 
-  .float-panel a:hover{ border-bottom:2px #272727 solid; }
-
+            #panel-link:hover{ border-bottom:1px solid #272727; }
+            
                 
-.float-panel .fa-gg {                  
-    color:#F0595C;
+.float-panel .logo {                  
+    color:#0F6BC8;
     font-size:30px;
     vertical-align:middle;                  
-    transition:all 1s;                  
+    transition:all 1s; 
+    border: none;
 }
+#logo-menu{background-image: url(https://1.bp.blogspot.com/-wp3PIeho4QM/WR5R5dxIbuI/AAAAAAAAAgg/-kMwpM1pUScRl_uQ4QF573kOAGOTQjGAgCLcB/s320/Cart-Icon-PNG-Graphic-Cave.png); padding:10px 40px;
+    background-size:40px; background-position: 0; background-repeat: no-repeat;}
 
 /* Float Panel: class=&quot;float-panel fixed&quot; */
 
@@ -51,3 +54,31 @@
         transform: translateY(0);
     } 
 }
+            
+                .content-button{ font-size:16px; padding: 10px 20px; background-color:  transparent; border:0px; cursor: pointer; }
+                .content-button:hover{ border-bottom: 1px solid #272727; }
+
+                #content {
+                position: fixed; 
+                display: none; 
+                width: 100%; 
+                height: 100%; 
+                top: 0; 
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+                }            
+                #text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-size: 50px;
+                color: white;
+                transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                }            
+        
+        
