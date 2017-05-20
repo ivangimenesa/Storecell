@@ -30,7 +30,7 @@
         .imgExpande { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; }
         .imgExpande li { display: inline; }
         .post-content img{ height: 180px; }
-        .imgExpande li img { width: 180px; margin-left: 10px; -webkit-transition: 1s all ease; -moz-transition: 1s all ease; -o-transition: 1s all ease;  border-radius: 5px; }
+        .imgExpande li img { width: 180px; margin-left: 10px; -webkit-transition: 0.2s all ease; -moz-transition: 0.2s all ease; -o-transition: 0.2s all ease;  border-radius: 5px; }
         .imgExpande li img:hover { -moz-transform: scale(1.5); -webkit-transform: scale(1.5); -o-transform: scale(1.5); -webkit-transition: 1s all ease; -moz-transition: 1s all ease; -o-transition: 1s all ease; }
         
 
