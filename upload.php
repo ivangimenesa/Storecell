@@ -1,3 +1,4 @@
+<?php
 #Indice de identificacao da ordem de tratamento do arquivos no servidor
 $i = 0;
  
@@ -13,3 +14,4 @@ foreach ($_FILES["arquivos"]["error"] as $key => $error) {
     #Próximo arquivo a ser analisado
     $i++;
 }
+?>
