@@ -14,7 +14,7 @@
             /* CORPO */
  *{ padding: 0; margin: 0; }
         
-        .post-all{ margin: 5px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;}
+        .post-all{ margin: 0px 5px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;}
         
         .post-all p { font-size:15px; margin:5px 0px; }
         
