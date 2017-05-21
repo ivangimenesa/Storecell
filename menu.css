@@ -1,17 +1,16 @@
-.form-container{ margin:15px 0px;  font-family:arial; display:flex; flex-direction:column; justify-content:center; color:black; }
-.title-contact{ font-weight:400; 
-margin:10px 0; font-size:50px; border-bottom:1px solid #ccc; }
+.form-container{ margin:15px 0px;  overflow:hidden; padding:20px; font-family:arial; display:flex; flex-direction:column; justify-content:center; color:black; }
+.title-contact{ font-weight:400; margin:10px 0; font-size:50px; border-bottom:1px solid #ccc; }
 
 .button-form{ border:none;display:inline-block; outline:0; padding:10px 16px; vertical-align:middle; overflow:hidden; 
 text-decoration:none; color:inherit; background-color:inherit;text-align:center; cursor:pointer; white-space:nowrap; }
 
-.box-input{ padding:8px; display:block; border:none; border-bottom:1px solid #ccc; width:100%; margin:15px 5px; width:98%; }
+.box-input{ padding:8px; display:block; border:none; border-bottom:1px solid #ccc; width:80%; margin:15px 5px; }
 
 .form-container{ padding:5px 16px; }
         
-.enviar-button{ padding:10 15px; border: 0px; cursor: pointer; background: #0875C9; color:white; border-radius:5px; }
+.enviar-button{ padding:10px 15px; border: 0px; cursor: pointer; background: #0875C9; color:white; border-radius:5px; }
         
-        .icon-name{ background-image: url(http://www.freeiconspng.com/uploads/grab-vector-graphic-person-icon--imagebasket-13.png); padding:15px 35px; background-position: 0px; background-repeat: no-repeat; background-size:40px;}
+        .icon-name{ background-image: url(http://www.freeiconspng.com/uploads/grab-vector-graphic-person-icon--imagebasket-13.png); padding:15px 40px; background-position: 0px; background-repeat: no-repeat; background-size:40px;}
         .icon-email{ background-image: url(http://sites.uepg.br/ppz/img/email.png); padding:15px 40px; background-position: 0px; background-repeat: no-repeat; background-size:40px;}
         .icon-comment{ background-image: url(http://peacepublicschool.com/images/feedbackicon.png); padding:15px 40px; background-position: 0px; background-repeat: no-repeat; background-size:40px;}
     
@@ -23,11 +22,7 @@ text-decoration:none; color:inherit; background-color:inherit;text-align:center;
     position: relative;
 }
 
-.container {
-    padding: 16px;
-}
-
-
+  .container{ padding:15px; }
 .modal {
     display: none; 
     position: fixed;
@@ -44,7 +39,7 @@ text-decoration:none; color:inherit; background-color:inherit;text-align:center;
 
 .modal-content {
     background-color: #fefefe;
-    margin: 2% auto 15% auto;
+    margin: 5% auto 15% auto;
     border: 1px solid #888;
     width: 80%;
     border-radius: 15px;
@@ -110,7 +105,7 @@ text-decoration:none; color:inherit; background-color:inherit;text-align:center;
     cursor: pointer;
     font-size:16px;
     border-bottom:1px solid white;
-    border:none;
+    border-top:none;border-left:none;border-right:none;
     text-decoration:none;
     color:#444;
     display:inline-block;
@@ -127,5 +122,27 @@ text-decoration:none; color:inherit; background-color:inherit;text-align:center;
     transition:all 1s; 
     border: none;
 }
-#logo-menu{background-image: url(https://1.bp.blogspot.com/-wp3PIeho4QM/WR5R5dxIbuI/AAAAAAAAAgg/-kMwpM1pUScRl_uQ4QF573kOAGOTQjGAgCLcB/s320/Cart-Icon-PNG-Graphic-Cave.png); padding:10px 40px;
-    background-size:40px; background-position: 0; background-repeat: no-repeat;}        
+
+#logo-menu{background-image: url(https://2.bp.blogspot.com/-_kHoFqOdUXU/WSEm5QthAlI/AAAAAAAAAmk/guDA8udk6mY7yWWhh_Ah_p6LGZn72XgYwCLcB/s1600/Sem%2BT%25C3%25ADtulo-2.png); padding:15px 40px;
+    background-size:40px; background-position: 0; background-repeat: no-repeat;}
+
+.fixed {
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);  
+    padding:4px 0;
+    animation:slide-down 1s;
+    opacity:0.9;    
+}                  
+.fixed .fa-gg {                  
+    transform: rotate(360deg);      
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    } 
+}
